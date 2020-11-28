@@ -29,7 +29,7 @@
     {
         $result = "Invalid Operator";
     }
-    print("Result is ="+$result);
+    echo "Result is = ".$result;
 ?>
 <form action="index.php" method="POST">
      Num1: <input type="number" name="num1">
