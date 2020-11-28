@@ -34,6 +34,6 @@
 <form action="index.php" method="POST">
      Num1: <input type="number" name="num1">
      Num2: <input type="number" name="num2">
-     Operator: <input type="number" name="operator">
+     Operator: <input name="operator">
      <input type="submit">
 </form>
