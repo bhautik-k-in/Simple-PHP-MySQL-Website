@@ -1,3 +1,9 @@
+<form action="index.php" method="POST">
+     Num1: <input type="number" name="num1"><br>
+     Num2: <input type="number" name="num2"><br>
+     Operator: <input name="operator"><br>
+     <input type="submit">
+</form>
 <?php
     #$db_host = "";
     #$db_username = "";
@@ -31,9 +37,3 @@
     }
     echo "Result is = ".$result;
 ?>
-<form action="index.php" method="POST">
-     Num1: <input type="number" name="num1">
-     Num2: <input type="number" name="num2">
-     Operator: <input name="operator">
-     <input type="submit">
-</form>
