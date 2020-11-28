@@ -1,7 +1,7 @@
 <form action="index.php" method="POST">
-     Num1: <input type="number" name="num1"><br>
-     Num2: <input type="number" name="num2"><br>
+     Num1&nbsp;&nbsp;&nbsp;&nbsp;: <input type="number" name="num1"><br>
      Operator: <input name="operator"><br>
+     Num2&nbsp;&nbsp;&nbsp;&nbsp;: <input type="number" name="num2"><br>
      <input type="submit">
 </form>
 <?php
